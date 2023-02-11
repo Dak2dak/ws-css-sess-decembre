@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@700&family=Roboto:wght@300&display=swap');
+
+
+/* body {
+    font-family: 'Montserrat Alternates', sans-serif;
+} */
+
+html {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+
+
+
+/* p {
+            font-size: 50px;
+            color: blue;
+            border: dashed 3px red;
+            border-radius: 20px;
+        }
+
+    span {
+        border: solid 2px #000;
+        background-color: aqua;
+    }
+
+    button:hover {
+        color: #fff;
+        width: 200px;
+        height: 20px;
+        border-radius: 10px;
+        background-color: #000;
+    }
+
+    a:link {
+        color: #EC4C2C;
+        text-decoration: none;
+    }
+
+    .letter-sp {
+        letter-spacing: 0.1px;
+        display: ;
+    } */
+
+
+
+
+body{
+    position: relative;
+    background-color: #000;
+}
+
+form {
+    border: solid 2px;
+    width: 25%;
+    height: 300px;
+    padding: 15px 10px;
+
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 25%);
+}
+
+.box {
+    margin-bottom: 20px;
+}
+
+label {
+    color: #fff;
+    display: block;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 98%;
+    border: none;
+    padding: 7px 5px;
+    background-color: #E4ECEC;
+}
+
+::placeholder {
+    color: #000;
+}
+
+button {
+    color: #fff;
+    width: 100%;
+    border: none;
+    padding: 3px 0;
+    background-color: green;
+}
